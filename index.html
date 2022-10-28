@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Maze | Home</title>
+    
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- Icon Scout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-2" href="#">
+            <div class="loader">
+                <div class="scanner">
+                  <span>Code Maze </span>
+                </div>
+            </div>
+          </a>
+          
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#main-panal">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="#refrence">Refrence</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#login">Login</a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="btn btn-res-nav" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <span class="uil uil-bars"></span>
+          </button>
+
+        </div>
+    </nav>
+
+    <!-- Nav Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title ms-2">Menu</h5>
+              <button class="btn btn-res-nav" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <span class="uil uil-multiply" style="color: white"></span>
+               </button>
+            </div>
+            <div class="modal-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2 text-center">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#main-panal">Home</a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#refrence">Refrence</a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about">About</a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#login"><i class="uil uil-user"></i> Login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Main -->
+    <main>
+      <section id="main-panal">
+        <div class="main-content d-flex justify-content-center align-items-center h-100">
+            <div class="main-loader">
+                <div class="main-content d-flex justify-content-center align-items-center h-100">
+                    <div class="content-loader">
+                        <div class="loader">
+                            <svg viewBox="0 0 80 80">
+                                <circle id="test" cx="40" cy="40" r="32"></circle>
+                            </svg>
+                        </div>
+                        
+                        <div class="loader triangle">
+                            <svg viewBox="0 0 86 80">
+                                <polygon points="43 8 79 72 7 72"></polygon>
+                            </svg>
+                        </div>
+                        
+                        <div class="loader">
+                            <svg viewBox="0 0 80 80">
+                                <rect x="8" y="8" width="64" height="64"></rect>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="d-block">
+                    <h1 class="main-text"><span>Documentation</span> is a love letter that you write to your future self 
+                      <span class="d-block">
+                        <a href="#refrence" class="mt-4 d-inline-block">
+                          Get Strated
+                      </a>
+                      </span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="refrence">
+        <h5>Refrence</h5>
+
+      </section>
+    </main>
+</body>
+</html>
